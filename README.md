@@ -36,7 +36,7 @@ Edit this document to include your answers after each question. Make sure to lea
 - I would say that semantic HTML is HTML that gives structure/context to the webpage.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
-- First would be that Block takes up the whole line, here inline does not. Seconly, Blocks can have there height and height changed.
+- First would be that Block elements takes up the whole line, where as inline elements do not. Secondly, Blocks can have there width and height changed, and inline cannot.
 
 3. What are the 4 areas of the box model?
 - Content, padding, border, and margin.
