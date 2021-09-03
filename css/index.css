@@ -46,31 +46,25 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 * {
     box-sizing: border-box;
 }
-
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-
 p {
     line-height: 1.4;
 }
-
 .container {
     width: 800px;
     margin: 0 auto;
 }
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -78,29 +72,24 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -111,26 +100,21 @@ p {
     align-items: center;
     justify-content: center;
 }
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
-
 .bottom-content .text-container {
     padding-right: 4%;
 }
-
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
 footer {
     width: 100%;
     background: black;
 }
-
 footer nav {
     width: 60%;
     display: flex;
@@ -139,8 +123,108 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
-
 footer nav a {
     color: white;
     text-decoration: none;
 }
+/* Site Header */
+header{
+    display: flex;
+    width: 800px;
+    padding-bottom: 2%;
+    margin: auto;
+    margin-top: 1%;
+}
+header nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.navButton{
+    text-decoration: none;
+    color: black;
+    font-size: 85%;
+}
+/* Top Images for both pages */
+.homeImgContainer{
+    margin-bottom: 2%;
+}
+.aboutImgContainer{
+    margin-bottom: 2%;
+}
+/* Main content for both pages */
+.middle-content .boxes .box1{
+    background: teal;
+}
+.middle-content .boxes .box2{
+    background: gold;
+}
+.middle-content .boxes .box3{
+    background: cadetblue;
+}
+.middle-content .boxes .box4{
+    background: coral;
+}
+.middle-content .boxes .box5{
+    background: crimson;
+}
+.middle-content .boxes .box6{
+    background: forestgreen;
+}
+.middle-content .boxes .box7{
+    background: darkorchid;
+}
+.middle-content .boxes .box8{
+    background: hotpink;
+}
+.middle-content .boxes .box9{
+    background: indigo;
+}
+.middle-content .boxes .box10{
+    background: dodgerblue;
+}
+.top-content .text-container-about {
+    padding: 0 1%;
+    padding-bottom: 20px;
+    padding-right: 2%;
+    padding-left: 3%;
+}
+.contentLine{
+    display: flex;
+    justify-content: space-around;
+}
+.contentBox{
+    width: 45%;
+}
+.learnButton{
+    border: black 2px solid;
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: inline-block;
+    border-radius: 8px;
+    text-decoration: none;
+    color: Black;
+    margin-top: 4%;
+}
+/* Bottom of site */
+.bottomBox{
+    margin-top: 9%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+    
+
+}
+.contentLine .contentBox h2{
+    margin-top: 4%;
+}
+.bottomSection{
+padding-right: 2%;
+padding-left: 3%;
+}
+footer{
+    margin-top: 4%;
+}
+
