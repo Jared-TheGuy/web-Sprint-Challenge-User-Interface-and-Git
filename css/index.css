@@ -175,3 +175,30 @@ footer nav a {
 #box10{
     background: dodgerblue;
 }
+
+header{
+    display: flex;
+    margin-left: 28%;
+    margin-right: 29%;
+    padding-bottom: 2%;
+    margin-top: 1%;
+}
+.lambdaLogo{
+    padding-bottom: 1%;
+}
+header nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1%;
+    
+}
+.navButton{
+    text-decoration: none;
+    color: black;
+    font-size: 85%;
+}
+body{
+
+}
